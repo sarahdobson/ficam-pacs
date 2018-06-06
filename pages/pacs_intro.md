@@ -3,14 +3,15 @@ layout: default
 title: Introduction
 permalink: /
 ---
+<!--Deleted "Background" section. LaChelle (LL) and Rachel (RF) commented that Background should be deleted.-->
+<!--Deleted "Physical Access Control Systems" title. Title of Playbook will appear on webpage when published.-->
+This Playbook will help physical access control system architects, engineers, and project managers to implement physical access control systems that work with Personal Identity Verification cards (PIV-PACS).<!--LL and RF edits to paragraph.-->  
 
-This Playbook is for access control system architects, implementers, and project managers.  It provides you with the planning guidance you need to implement physical access control systems that work with Personal Identify Verification cards (PIV-PACS) and that conform to NIST and GSA requirements.  
+This Playbook walks you through how to:<!--LL, RF, and Celeste (CB) edits-->
 
-This playbook help you with the following:
-
-* Determining facility risk
-* Selecting the appropriate PIV mechanism to use for authentication
-* Understanding enterprise PACS and security functions
-* Recognizing PIV and PIV-I considerations
-* Procuring FIPS 201-approved products and services
-* Deploying a PIV-PACS
+* Determine facility risk
+* Select the appropriate PIV mechanism to use for authentication
+* Understande enterprise PACS and security functions
+* Recognize PIV and PIV-I considerations
+* Procure FIPS 201-approved products and services
+* Deploy a PACS
