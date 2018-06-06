@@ -11,7 +11,7 @@ This Playbook walks you through how to:<!--LL, RF, and Celeste (CB) edits-->
 
 * Determine facility risk
 * Select the appropriate PIV mechanism to use for authentication
-* Understande enterprise PACS and security functions
-* Recognize PIV and PIV-I considerations
+* Understand enterprise PACS and security functions
+* Recognize PIV and PIV-I considerations <!--Delete? (Removal of section recommended by LL.-->
 * Procure FIPS 201-approved products and services
-* Deploy a PACS
+* Deploy a PACS <!--Removal of section recommended by LL.--> 
