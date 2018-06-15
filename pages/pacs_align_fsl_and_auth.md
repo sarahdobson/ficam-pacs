@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Select Authentication Mechanism
-permalink: /authmech/
+permalink: /alignfslauth/
 ---
 
 In order to determine how many factors of authentication are required, a risk analysis should be conducted for each access point (door). The diagram below outlines the multi-step process for selecting which mechanism to use for authentication.  At a minimum, the process includes four steps:
