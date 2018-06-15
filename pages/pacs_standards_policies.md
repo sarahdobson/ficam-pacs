@@ -23,7 +23,7 @@ OMB M-11-11, ["Continued Implementation of Homeland Security Presidential Direct
 
 [_Federal Identity, Credentialing, and Access Management Personal Identity Verification Interoperable (PIV-I) Frequently Asked Questions (FAQ)_](https://www.idmanagement.gov/wp-content/uploads/sites/1171/uploads/PIV-I_FAQ.pdf){:target="_blank"}, Version 1.0, Federal CIO Council, June 28, 2010. <**Corrected link (404)**>
 
-[FIPS PUB 199, _Standards for Security Categorization of Federal Information and Information Systems_] (https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.199.pdf){:target="_blank"}, NIST, February 2004
+[FIPS PUB 199, _Standards for Security Categorization of Federal Information and Information Systems_](https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.199.pdf){:target="_blank"}, NIST, February 2004
 
 [FIPS PUB 200, _Minimum Security Requirements for Federal Information and Information Systems_](https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.200.pdf){:target="_blank"}, NIST, March 9, 2006. 
 
@@ -41,7 +41,7 @@ OMB M-11-11, ["Continued Implementation of Homeland Security Presidential Direct
 
 [NIST SP 800-73-4, _Interfaces for Personal Identity Verification_](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-73-4.pdf){:target="_blank"}, Parts 1 and 2, May 2015 (Updated February 8, 2016).
 
-[NIST SP 800-116, _A Recommendation for the Use of PIV Credentials in Physical Access Control Systems (PACS)_](http://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-116.pdf){:target="_blank"], November 2008. <**800-116-1 is a Draft and shouldn't be referenced. 800-116 is the current Final.**>
+[NIST SP 800-116, _A Recommendation for the Use of PIV Credentials in Physical Access Control Systems (PACS)_](http://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-116.pdf){:target="_blank"], November 2008. <**As of 6/15/2018, 800-116-1 is still a Draft and not yet approved as Final. SP 800-116 is still the current Final.**>
 
 [NIST SP 800-171, Revision 1, _Protecting Controlled Unclassified Information in Nonfederal Information Systems and Organizations_](http://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-171r1.pdf){:target="_blank"}, December 2016.
 
@@ -59,5 +59,5 @@ Field Manual 3-19.30, _Physical Security. Headquarters, Department of the Army, 
 
 [PACS Ordering Guide](https://www.gsa.gov/cdnstatic/Guide_to_PACS_-_REVISED_060717.pdf), GSA, January 2017.
 
-[PIV-I Test Report Template](https://www.idmanagement.gov/piv-i_test_report_template-1/){:target="_blank"}, April 25, 2012. <**Corrected broken link (404). Please verify new link is correct reference. April 25, 2012 is metadata date of creation; none on cover.**>
+[PIV-I Test Report Template](https://www.idmanagement.gov/piv-i_test_report_template-1/){:target="_blank"}, April 25, 2012. <**Is this reference pertinent?  "PIV and PIV-I Considerations" section has been removed from PACS Playbook (6/2018). Corrected broken link (404). April 25, 2012 is metadata date of creation; none on cover.**>
 
