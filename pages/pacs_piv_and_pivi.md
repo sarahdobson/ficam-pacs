@@ -3,20 +3,34 @@ layout: default
 title: PIV and PIV-I Considerations
 permalink: /pivandpivi/
 ---
+**6/12/2018 - The "PIV and PIV-I Considerations" section is being removed entirely, based on LaChelle's 11/16/2017 comments on the "ACC Playbook v6"**
 
-PIV and PIV-Interoperable (PIV-I) credentials are based on smart card technology. Smart cards incorporate a small computer chip in a card (or other form factor).  The embedded chip provides the card with built-in tamper resistance, the ability to store large amounts of data securely, data processing capability, and the ability to interact intelligently with a smart card reader. Smart cards can be used online and across networks and deliver very high levels of security over the Internet.  They are also convenient and easy to use.
+**NOTE:**  A backup copy of this "PIV and PIV-I Considerations" section has been archived. **Deletion History in GSA ficam-pacs** repo: https://github.com/GSA/ficam-pacs/commit/b5f6ea60a5b433f0e2974ab4d48414e7415cbac6
+
+**LaChelle's comments:**
+* "Suggestion: remove (entire "PIV and PIV-I Considerations" section), for background on PIV there are existing resources."
+* "Remove?" Remove entire paragraph: "The Federal Government has issued" through "technical interoperability standards."
+* "Remove? We updated the PIV-I documents and can pull and reference materials there?" Remove entire paragraph: "Interest in a common identity credential is growing" through "Table 4 compares the PIV and PIV-I cards."
+"Remove all?" Remove entire table:  "Table 4.  Comparison of PIV and PIV-I Cards."
+* "Remove. The focus is on PACS correct? We don't need to sell PIV-I?" Remove entire section: "Does PIV-I affect Federal agencies and employees?"
+* "Remove?" Remove entire section: "What is the difference between PIV and PIV-I readers?"
+
+------------
+
+<!--LaChelle: "Suggestion: remove (entire section), for background on PIV there are existing resources."-->PIV and PIV-Interoperable (PIV-I) credentials are based on smart card technology. Smart cards incorporate a small computer chip in a card (or other form factor).  The embedded chip provides the card with built-in tamper resistance, the ability to store large amounts of data securely, data processing capability, and the ability to interact intelligently with a smart card reader. Smart cards can be used online and across networks and deliver very high levels of security over the Internet.  They are also convenient and easy to use.
 Smart card technology can provide an identity management system or physical access control system with strong information and privacy protection.  A smart card-based ID can guard personal information and individual privacy by implementing a personal firewall, releasing only required information and only when it is genuinely required.
 
 The PIV and PIV-I credentials include a dual-interface chip that supports both contact (ISO/IEC 7816-compliant) and contactless (ISO/IEC 14443-compliant) operations.
 
 ## What Is the Difference between PIV and PIV-I?
+<!--LaChelle suggests removing this entire section.-->
+<!--LaChelle:  "Remove?" (entire paragraph).-->The Federal Government has issued well over 5 million PIV cards to employees and contractors.  Federal agencies use the PIV card to authorize employee access to both physical and logical resources and to assign access privileges.  The success of the program is largely due to the development of goals, issuance policies, and technical specifications that all Federal agencies have agreed to follow.  A cross-certification policy establishes trust between agencies; employees from one agency can use their PIV credentials to access controlled resources when visiting other agencies.  A variety of suppliers offer products and systems that conform to the technical interoperability standards.
 
-The Federal Government has issued well over 5 million PIV cards to employees and contractors.  Federal agencies use the PIV card to authorize employee access to both physical and logical resources and to assign access privileges.  The success of the program is largely due to the development of goals, issuance policies, and technical specifications that all Federal agencies have agreed to follow.  A cross-certification policy establishes trust between agencies; employees from one agency can use their PIV credentials to access controlled resources when visiting other agencies.  A variety of suppliers offer products and systems that conform to the technical interoperability standards.
-
-Interest in a common identity credential is growing among Non-Federal Issuers. PIV-I cards are already being issued by federal contractors to employees who need access to federal buildings and IT networks.  The PIV-I credential is technically interoperable with the government PIV systems (e.g., readers) and is issued in a way that allows government agencies to trust the card.  PIV-I credentials comply with Federal Bridge guidance on identity-proofing, registration, and issuance.  PIV-I credentials are cross-certified with the Federal Public Key Infrastructure (PKI) Bridge to allow contractor personnel, visitors, and personnel waiting for clearance to access authorized resources.  Table 4 compares the PIV and PIV-I cards.
+<!--LaChelle:  "Remove?" (entire paragraph). "We updated the PIV-I documents and can pull and reference materials there?"-->Interest in a common identity credential is growing among Non-Federal Issuers. PIV-I cards are already being issued by federal contractors to employees who need access to federal buildings and IT networks.  The PIV-I credential is technically interoperable with the government PIV systems (e.g., readers) and is issued in a way that allows government agencies to trust the card.  PIV-I credentials comply with Federal Bridge guidance on identity-proofing, registration, and issuance.  PIV-I credentials are cross-certified with the Federal Public Key Infrastructure (PKI) Bridge to allow contractor personnel, visitors, and personnel waiting for clearance to access authorized resources.  Table 4 compares the PIV and PIV-I cards.
 
 Agency policy may dictate a background check before granting access to a PIV-I cardholder.
 
+<!--LaChelle:  "Remove all?" (entire Table 4)-->
 **Table 4. Comparison of PIV and PIV-I Cards**
 
 | **Policy** |  **PIV** | **PIV-I** |
@@ -40,8 +54,9 @@ Agency policy may dictate a background check before granting access to a PIV-I c
 | Organizations that may issue and/or use the credential  | Federal agencies | Federal agencies<br>Federal contractors<br>Commercial organizations doing business with the Federal Government<br>State and local governments<br>Critical infrastructure providers<br>First responder organizations<br>Commercial organizations who are part of an industry initiative and require an interoperable, trusted credential |
 | Use  | Credential can be used in a wide range of both employment-related and consumer-based transactions.<br>Examples include physical access, logical access, mass transit, and closed loop payments. | Same as for PIV  |
 
+ 
 ## Does PIV-I Affect Federal Agencies and Employees?
-
+<!--LaChelle:  "Remove. The focus is on PACS correct? We don't need to sell PIV-I?" (Remove entire section.)-->
 Federal contractors, as well as a variety of other organizations, including large corporations, consulting firms, first responders, and state and local governments, are all beginning to use PIV-I cards.  Federal agencies also issue PIV-I cards to some personnel, such as employees who are waiting for completion of background checks or on temporary assignment.  Certain common considerations drive PIV-I use.
 
 - **Published credential standard.**  The credential is based on open published standards, making it easier to develop software applications that use the credential.
@@ -54,7 +69,7 @@ Federal contractors, as well as a variety of other organizations, including larg
 - **Remote access.**  PIV-I credentials use smart card technology and provide strong authentication for remote and wireless access to enterprise networks.  
 
 ## What Is the Difference between PIV and PIV-I Readers?
-
+<!--LaChelle: "Remove?" Remove entire section: "What is the difference between PIV and PIV-I readers?"-->
 The PIV-I credential is technically interoperable with Federal PIV systems, including card readers.  
 
 The PIV and PIV-I technology and infrastructure are based on multiple standards governing components ranging from the physical token (the smart card) to the identity credential components to the PKI that enables interoperable trust.  Both PIV and PIV-I are based on FIPS 201-2 and accompanying special publications and reference other internationally recognized standards.  
