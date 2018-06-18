@@ -3,6 +3,9 @@ layout: default
 title: Determine Facility Risk
 permalink: /facilityrisk/
 ---
+**6/18/2018 NOTE:  This section is being moved to precede the ACC's older "Select Appropriate Authentication Mechanim" section.  According to new Navigation, the combined sections will follow the new major heading, "Aligning Facility Security Level (FSL) and Authentication," per LaChelle's recommendation**
+
+## Determine Facility Risk 
 
 The risk to facilities and security areas within facilities is generally driven by the sensitivity of the assets (databases, equipment, and people). Risk is reduced when critical assets can only be accessed by individuals who demonstrate a valid need for access and who can prove that they are who they claim to be.
 
