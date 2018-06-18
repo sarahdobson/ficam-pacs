@@ -3,7 +3,9 @@ layout: default
 title: Aligning Facility Security Level (FSL) and Authentication
 permalink: /alignfslandauth/
 ---
-# Aligning Facility Security Level (FSL) and Authentication <!--New title per new Navigation. LaChelle recommended combining these 2 sections--Determine Faclity Risk and Select Appropriate Authentication Mechanism to form this Playbook section.-->
+<!--"Aligning Facility Security Level (FSL) and Authentication" is now major section title, per new Navigation. LaChelle recommended combining these 2 sections--Determine Faclity Risk and Select Appropriate Authentication Mechanism to form this Playbook section.-->
+
+# Aligning Facility Security Level (FSL) and Authentication 
 
 ## Determine Facility Risk
 
