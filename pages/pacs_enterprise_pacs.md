@@ -1,39 +1,44 @@
 ---
 layout: default
-title: Understand Enterprise PACS
+title: Enterprise Physical Access Control Systems
 permalink: /enterprisepacs/
 ---
+**<"Enterprise Physical Access Control Systems" is new section title, per LaChelle's recommendation and new navigation. (Original title was "Understanding Enterprise PACS and Security Functions.")  Comments below are in bold from LaChelle.>
 
-Individual PACS are often part of a local “security” network (not the enterprise network), along with cameras, intrusion detection sensors, and other security devices.  In some cases, the PACS is not connected to any network.  As a result, different brands of PACSs or even multiple PACSs that are the same brand, are individually administered with little thought given to unifying security policies enterprise-wide.
 
-This lack of coordination increases risk to the enterprise and operational costs.
+## The Current State of PACS in Government
+**<LaChelle: Who is the audience for this section? For govt to post on gov, need to remove some of the editorial.>**
+Individual PACS are often part of a local “security” network, along with cameras, intrusion detection sensors, and other security devices.  In some cases, the PACS is not connected to any network.  As a result, different PACSs or even multiple systems that are the same brand, are individually administered without unifying security policies enterprise-wide.
 
-Traditionally, physical security has focused on one site at a time, without regard to overall use.  Government employees and contractors often must travel to or work in different buildings as part of their employment.  Common practice is to enroll the individual’s PIV card in each standalone PACS and provide access authorizations (also called "entitlements" or "privileges") at enrollment.  One problem is that subsequent changes to access authorizations are made manually.  But the biggest problem is that privileges may not be terminated when a PIV card or other credential is no longer valid.
+A lack of coordination increases risk to the enterprise and operational costs.
+
+**<LaChelle: Bullets and remove editorial (e.g., "biggest" etc.)>**Traditionally, physical security has focused on one site at a time, without regard to overall use.  Government employees and contractors often must travel to or work in different buildings as part of their employment.  Common practice is to enroll the individual’s PIV card in each standalone PACS and provide access authorizations (also called "entitlements" or "privileges") at enrollment.  One problem is that subsequent changes to access authorizations are made manually.  But the biggest problem is that privileges may not be terminated when a PIV card or other credential is no longer valid.
 
 For a variety of reasons, some agencies have undertaken efforts to network their PACSs into a coherent, centrally managed system.  
 
 ## What Is an Enterprise PACS?
 
-**_Enterprise PACS_** refers to the concept of connecting the PACS to the owners’ enterprise network leveraging the FICAM infrastructure to support strong authentication using the PIV card.  An enterprise PACS provides one access control environment that can be shared and managed centrally. For more information, see Chapter 10, page 313, of _The Federal Identity Credential and Access Management (FICAM) Roadmap and Guidance_ (Version 2.0), which details the notional architecture and components of an enterprise PACS environment (Figure 2).
+**_Enterprise PACS_** refers to the concept of connecting the PACS to the owners’ enterprise network leveraging the FICAM infrastructure to support strong authentication using the PIV card.  An enterprise PACS provides one access control environment that can be shared and managed centrally.
 
 ## Current Government Directives for an Enterprise PACS
+**<LaChelle:  Update figure using the newer icons and terminology for FICAM Architecture.>**
 
 ![Enterprise PACS management system](../img/enterprise_mgmt_system.png){:style="width:80%;float:center;"}
 
 **Figure 2. Architecture and Components of an Enterprise PACS Environment**
 
-Authoritative sources are connected to an in-place PACS over what is called the External Interface/Cardholder Provisioning System or a Centralized Enterprise PACS Management System.  An Enterprise PACS management system can help reduce human error, reduce costs, and provide a unified view of all identities and their privileges.
+Authoritative sources are connected to an in-place PACS over what is called the External Interface/Cardholder Provisioning System or a Centralized Enterprise PACS Management System.  **<LaChelle: Example: pull this (following) sentence and others like it out of the description, and use as bullets for "reasons to consider enterprise wide physical access control systems.">**An Enterprise PACS management system can help reduce human error, reduce costs, and provide a unified view of all identities and their privileges.
 
 ## Prerequisites for an Enterprise PACS
 
-In order to unify PACSs, each system must either be part of the organization’s enterprise network or have a network connection.  The security department that manages the PACS must work with the organization’s IT department to obtain an Authority To Operate (ATO).  The ATO process can be costly and tedious and involves each PACS vendor, who may need to update or patch its software to fix security flaws.  The more PACSs involved, the more funding required.
+In order to unify PACSs, each system must either be part of the organization’s enterprise network or have a network connection.  The security department that manages the PACS must work with the organization’s IT department to obtain an Authority To Operate (ATO).  **<LaChelle: (Next 2 sentences) Editorializing.>**The ATO process can be costly and tedious and involves each PACS vendor, who may need to update or patch its software to fix security flaws.  The more PACSs involved, the more funding required.
 
-One way to mitigate cost is to deploy an enterprise PACS management system on the enterprise network, obtain the ATO for that system, and then connect each individual PACS to the management system with a point-to-point link, such as a point-to-point VPN.  This strategy is subject to a department’s or agency’s FISMA policy interpretation for security boundary control.
+**<LaChelle: editorial - can be made into steps.>** One way to mitigate cost is to deploy an enterprise PACS management system on the enterprise network, obtain the ATO for that system, and then connect each individual PACS to the management system with a point-to-point link, such as a point-to-point VPN.  This strategy is subject to a department’s or agency’s FISMA policy interpretation for security boundary control.
 
 Another variant is to deploy the enterprise PACS management system in a Federal Risk and Authorization Management Program (FEDRAMP) HIGH secure cloud and interconnect each PACS and authoritative source to that environment.  This solution is also subject to the FISMA controls implemented at the agency.
 
 ## Vital Security Functions Performed by an Enterprise PACS Management System
-
+**<LaChelle: What is this information in a "flow" for a user / reader? Who is the audience?>**
 The purpose of any access control system is to make sure the right person has the right access at the right time for the right reason.  Ultimately, some person or system needs to provision the “right” access levels.  Provisioning means specifying for each identity both the credential used (PIV card in government) and the privileges granted to access specific resources, such as a particular facility, door, or portal.  Correct provisioning can sometimes mean ensuring that a complex set of rules is enforced.  As such, this provisioning process is a vital security function.
 
 Three security functions are fundamental to an enterprise PACS.
@@ -47,22 +52,22 @@ Three security functions are fundamental to an enterprise PACS.
 | **Audit**   | Compliance to policy must be measured and monitored and violations or defects mitigated.  It is almost impossible to audit authentication and authorizations for every individual without an enterprise PACS management system. |
 
 
-Figure 3, from Chapter 4, page 102, of the FICAM Roadmap, illustrates these concepts.
+Figure 3, from Chapter 4, page 102, of the FICAM Roadmap, illustrates these concepts.**<LaChelle: Update figure to use the newer visuals and icons for the ficam roadmap. remove direct references (roadmap being replaced by updated playbooks).>**
 
 ![FICAM arch and flow automated provisioning and access](../img/arch_flow_provision_access.png){:style="width:95%;float:center;"}
 
 **Figure 3. FICAM Architecture and Flow for Electronically Automated Provisioning and Access Authorization with Audit Capabilities**
-
+**<LaChelle: (Next 3 paragraphs) Slim the words, increase use of bullets.>**
 Authoritative sources (Active Directory, PIV card database, personnel security system, other identity management systems [IDMS]) are connected to the enterprise PACS management system and automatically add new identities and remove terminated identities.  Most IDMS sources include an application programing interface (API) that allows external systems to access identity information.  The enterprise PACS management system should use that API to provide a near real-time interface, so that new identities are added within minutes.  Any changes to identity attribute data are similarly synchronized between the specific authoritative source and the enterprise PACS management system. This timely synchronization ensures that policy decisions regarding access can be implemented immediately.
 
 Requested changes to access are submitted electronically (for example, through a self-service portal). The enterprise PACS management system registers the new or modified access privileges in the affected PACS as directed by your agency’s business rules.  Such rules could include enforced compliance with prerequisites such as achievement of a certain training level or an electronically auditable approval process.
 
 Another key component is the audit trail.  It is vital to record who approved an access request, what conditions were met, and other policy or process data.  A record of access privilege changes over time is also important, for lifecycle audits.  An additional required audit is the attestation audit.  For high security access points or exclusion zones, many organizations require ongoing periodic audits by an access “owner” to maintain ongoing access.  The final audit determines whether access was granted manually through a back-door process, such as a privileged PACS admin user logging directly into a specific PACS and provisioning cards or granting access outside of policy.  The ability to detect, report, and even automatically remand such errant access is part of the audit function.  The enterprise PACS management system should address all these requirements.
 
-The enterprise PACS management system should be able to support these functions not only for federal employees, long-term contractors and visitors from other agencies (PIV cardholders), but also for shorter-term contractors (non-PIV cardholders).  Agencies may consider issuing a _Commercial Identity Verification (CIV)_ card for the latter or validate and enroll a non-agency PIV card for the former and perform these authentication, authorization and audit functions.  The CIV card, which the agency may issue, shall support the GSA APL-approved PACS that can authenticate the card at the time of use.
+The enterprise PACS management system should be able to support these functions not only for federal employees, long-term contractors and visitors from other agencies (PIV cardholders), but also for shorter-term contractors (non-PIV cardholders). **<LaChelle: Remove next 2 sentences.>** Agencies may consider issuing a _Commercial Identity Verification (CIV)_ card for the latter or validate and enroll a non-agency PIV card for the former and perform these authentication, authorization and audit functions.  The CIV card, which the agency may issue, shall support the GSA APL-approved PACS that can authenticate the card at the time of use.
 
 ## Implementation Guidance for an Enterprise PACS Management System
-
-According to 41 USC &sect; 3307, preference for commercial items is U.S. law. <!--Need exact citation for 44 C.F.R.-->Federal Acquisition Regulation, subpart 44.4, reiterates that contractors must supply commercial off-the-shelf (COTS) products to the maximum extent possible. With these requirements in mind, your agency should first investigate whether a COTS software product exists that can serve as an enterprise PACS management system.  In-house software development should be a last resort.
+**<LaChelle: What is the purpose for these two paragraphs? The second paragraph can be incorporated into the checklist up-front. "Establish an integrated program team" or use the official terms for the facility security integrated teams (between the tenant agency and the operating agency).>**
+According to 41 USC &sect; 3307, preference for commercial items is U.S. law. **<Celeste: Need exact citation for 44 C.F.R.>**Federal Acquisition Regulation, subpart 44.4, reiterates that contractors must supply commercial off-the-shelf (COTS) products to the maximum extent possible. With these requirements in mind, your agency should first investigate whether a COTS software product exists that can serve as an enterprise PACS management system.  In-house software development should be a last resort.
 
 Because an enterprise PACS management system interfaces with so many other systems that are owned or managed by different departments (such as human resources, IT, facilities security), it is imperative for all stakeholders to understand all requirements and implement properly. (The ideal governance for this process is a FICAM program management office.)  All stakeholders can benefit from the implementation of an enterprise PACS management system and should be motivated to provide guidance to the implementation group within your agency.  
