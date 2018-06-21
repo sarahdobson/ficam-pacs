@@ -41,7 +41,8 @@ Conduct a risk analysis for each access point (door) to determine how many authe
 > _Something you know (e.g., a PIN)_<br>
 > _Something you are (e.g., a fingerprint or iris scan)_<br/>
 * **Step 4 - Assign Authentication Mechanisms.** Determine the appropriate authentication mechanism(s) based on the number of authentication factors required for the security area.
-<_Rachel: Present additional information in following sections about the steps above that the reader needs to complete._>
+
+**<Rachel: Present additional information in following sections about the steps above that the reader needs to complete.>**
 
 ### Assess Risk
 
@@ -49,7 +50,7 @@ _Add additional information here._
 
 ### Categorize Security Areas 
 
-<_Celeste: The FM has been deprecated by the Dept. of the Army. Refer to NIST SP 800-116 only._>
+**<Celeste: The FM has been deprecated by the Dept. of the Army. Refer to NIST SP 800-116 only.>**
 NIST SP 800-116 defines three security area categories:
 
 * **Exclusion (Authentication Factors - 3)**. An area in which uncontrolled movement would permit direct access to a security asset or interest.
