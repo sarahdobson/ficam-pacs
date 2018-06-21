@@ -3,41 +3,73 @@ layout: default
 title: Aligning Facility Security Level (FSL) and Authentication
 permalink: /alignfslandauth/
 ---
-<!--"Aligning Facility Security Level (FSL) and Authentication" is now major section title, per new Navigation. LaChelle recommended combining "Determine Faclity Risk" and "Select Appropriate Authentication Mechanism" to form this section.-->
+<!--"Aligning Facility Security Level (FSL) and Authentication" is the new title for this major section. To create this section, 2 ACC Playbook v6 (11/2017) sections were merged: "Determine Faclity Risk" and "Select Appropriate Authentication Mechanism," per LaChelle's recommendation and new navigation.  LaChelle's and Rachel Flagg's comments and edits from the ACC Playbook v6 have been included here. Celeste Burley added some comments and edits.-->
 
 # Aligning Facility Security Level (FSL) and Authentication 
 
 ## Determine Facility Risk
 
-The risk to facilities and security areas is driven by the sensitivity of an agency's assets (databases, equipment, and people). Reducing the risk to critical assets requires limiting access to those who can prove their identities and demonstrate a valid need for access.
+The risk to facilities and security areas is driven by the sensitivity of an agency's assets (databases, equipment, and people). To reduce the risk to critical assets, agencies must limit physical access to only those individuals who can prove their identities and demonstrate a valid need for access.<!--Celeste reworded last sentence.-->
 
 To determine facility risk:
 
 * Identify potential threats to critical assets.
 * Determine how likely it is that a particular threat will occur.
-* Identify the impact if an asset is harmed in some way (damaged, destroyed, stolen, or compromised). Examples of impact could be financial loss, sensitive data loss, or a security breach.<!--Wouldn't a sensitive data loss be caused by a security breach? Possibly a security breach could cause a financial loss?-->
+* Identify the potential impact if an asset is damaged, destroyed, stolen, or compromised. Examples of impacts could be financial loss or sensitive data loss caused by a security breach.<!--Wouldn't a sensitive data loss or financial loss be caused by a security breach?-->
 
-NIST SP 800-116, _A Recommendation for the Use of PIV Credentials in Physical Access Control (PACS)_ recommends a risk-based approach to managing physical access to Federal Government facilities and assets. It also allows you to tailor a PACS implementation to your internal physical access control policies, practices, and procedures.
+NIST SP 800-116, _A Recommendation for the Use of PIV Credentials in Physical Access Control (PACS)_ recommends a risk-based approach to managing physical access to Federal Government facilities and assets. This standard also allows you to tailor a PACS implementation to your agency's physical access control policies, practices, and procedures.
 
-In addition, the policies, standards, and best practices published by DHS’s Interagency Security Committee (ISC):
+In addition, the Department of Homeland Security's (DHS) Interagency Security Committee (ISC) publishes [ISC policies, standards, and best practices](https://www.dhs.gov/isc-policies-standards-best-practices){:target="_blank"} that:
 
-* Establish criteria and define the process for determining a facility security level.
-* Represent a single source of physical security countermeasures for all federal facilities.
-* Offer guidance for customizing facility countermeasures and integrating new standards and concepts. 
+* Establish criteria and define the process for determining a Facility Security Level
+* Present a single source of physical security countermeasures for all Federal Government facilities
+* Offer guidance for customizing facility countermeasures and integrating new standards and concepts 
 
-## Select Appropriate Authentication Mechanism
+## Select Authentication Mechanism
 
-In order to determine how many factors of authentication are required, a risk analysis should be conducted for each access point (door). The diagram below outlines the multi-step process for selecting which mechanism to use for authentication.  At a minimum, the process includes four steps:
+Conduct a risk analysis for each access point (door) to determine how many authentication factors are required. The diagram below outlines the multi-step process for selecting which mechanism to use for authentication.
 
 ![Process for selecting authentication mechanism](../img/auth_mech_select.png){:style="width:80%;float:center;"}
 
 **Figure 1. Authentication Mechanism Selection Process**
 
-**1. Asset Risk Assessment.** The first step is to evaluate the likelihood and effect of losing or compromising each asset within a security area. If the likelihood is high or the impact is substantial, then categorize the risk to that asset as HIGH.  Other assets may have LOW or MODERATE risk.
+<!--(Rachel) Present each step as an action the reader needs to complete. Recommend using the following structure and text to replace the information starting with "1. Asset Risk Assessment" (marked off with borders).-->
+* **Step 1 - Assess Risk.** Evaluate the likelihood and effect of losing or compromising each asset within a security area, and document the risk levels (LOW, MODERATE, HIGH) for each asset.
+* **Step 2 - Categorize Security Areas.** Assign a risk level to the security area. The risk should be equal to the asset with the highest risk within the area. For example, if you have several assets within the area (including both LOW- and HIGH-risk assets), classify it as a HIGH-risk security area. You can also split the area into separate security areas, each with a different risk categorization.
+* **Step 3 - Determine Authentication Factors.** Identify the minimum number of authentication factors required for access. Authentication is based on verifying one, two, or three of the following factors:<br> 
+o Something you have (e.g., a PIV card)<br>
+o Something you know (e.g., a PIN)<br>
+o Something you are (e.g., a fingerprint or iris scan)</br>
+* **Step 4 - Assign Authentication Mechanisms.** Determine the appropriate authentication mechanism(s) based on the number of authentication factors required for the security area.
+<!--(Rachel) Present additional information in following sections about the steps above that the reader needs to complete.-->
+### Assess Risk
+
+_Add additional information here._
+
+### Categorize Security Areas 
+
+<!--The FM has been deprecated. Refer to NIST SP 800-116 only.-->
+NIST SP 800-116 defines three security area categories:
+
+* **Exclusion (Authentication Factors - 3)**. An area in which uncontrolled movement would permit direct access to a security asset or interest.
+* **Limited (Minimum Required Authentication Factors - 2)**. An area close to a security asset or interest.  Uncontrolled movement within a limited area may permit access to the asset.  Escorts and other internal restrictions can prevent access. 
+* **Controlled (Minimum Required Authentication Factors - 1**. An area close to or surrounding a limited or exclusion area.  Entry to a controlled area is restricted to personnel who need access.  Movement of authorized personnel within this area is not necessarily controlled, since entry to the area does not provide immediate access to any security assets or interests.  A controlled area provides administrative control, or safety, or acts as a buffer zone for embedded limited or exclusion areas. 
+
+### Determine Authentication Factors
+
+_Add additional information here._
+
+### Assign Authentication Mechanisms
+
+_Add additional information here._
+
+<!--Rachel recommends replacing the following text with the above suggested structure and text (i.e., bordered area text below would be removed).-->
+------
+**1. Asset Risk Assessment.** Evaluate the likelihood and effect of losing or compromising each asset within a security area and assign a risk of LOW, MODERATE or HIGH. <LaChelle suggests: _Include link to ISC info for risk assessment_>. 
 
 **2. Security Area Categorization.**  Next, assign to the security area the same risk level as the highest risk asset within the area.  For example, say there are three assets within a designated security area:  a LOW-risk asset, a MODERATE-risk asset, and a HIGH-risk asset.  The security area must be classified as a HIGH-risk security area.  As an alternative, split the security area into separate security areas, or a set of embedded security areas, each with a different risk categorization.
 
-NIST SP 800-116 adopts the security area categorizations described in Field Manual 3-19.30, _Physical Security. Headquarters, Department of the Army, United States of America_ (8 January 2001). <!--FM 3-19-30 is no longer listed as in effect by the Army. See http://usacac.army.mil/sites/default/files/misc/doctrine/CDG/fms.html for active listing of FMs.-->The manual defines three security area categories: Exclusion, Limited, and Controlled. The categories distinguish how immediately accessible the security assets (or security interests) are within the security area. (See Table 1.)  
+NIST SP 800-116 defines three security area categories:<!--The FM has been deprecated by the Dept. of the Army. Reference SP 800-116 only. See http://usacac.army.mil/sites/default/files/misc/doctrine/CDG/fms.html for Active listing of FMs.-->Exclusion, Limited, and Controlled. The categories distinguish how immediately accessible the security assets (or security interests) are within the security area. (See Table 1.)  
 
 **Table 1.  Security Area Categories**
 
@@ -50,7 +82,7 @@ NIST SP 800-116 adopts the security area categorizations described in Field Manu
 
 You can also define your own categorizations to reflect your particular security needs and/or physical security policies and practices.
 
-**3. Authentication Factor Selection.** The guidelines that govern the types and number of factors required to authenticate people and their credentials for specific security area classifications are straightforward.  Authentication is based on verifying one, two, or three of the following factors:
+**3. Authentication Factor Selection.** Authentication is based on verifying one, two, or three of the following factors:
 
 - Something you have (e.g., a PIV card)
 - Something you know (e.g., a PIN)
@@ -68,6 +100,8 @@ NIST SP 800-116 recommends the minimum number of authentication factors required
   
 
 **4. Authentication Mechanism Assignment.**  Once you know how many authentication factors are required for a security area, you can determine the appropriate authentication mechanisms.  NIST SP 800-116 describes available authentication mechanisms and provides guidance on how they can be applied.  But you can choose to deviate from the NIST SP 800-116 recommended authentication mechanisms and select solutions that fit your particular agency’s needs.
+
+------
 
 ### What Authentication Mechanisms Are Available?
 
