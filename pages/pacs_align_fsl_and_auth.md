@@ -123,6 +123,7 @@ NIST SP 800-116 recommends the minimum number of authentication factors required
 
 **4. Authentication Mechanism Assignment.**  Once you know how many authentication factors are required for a security area, you can determine the appropriate authentication mechanisms.  NIST SP 800-116 describes available authentication mechanisms and provides guidance on how they can be applied.  But you can choose to deviate from the NIST SP 800-116 recommended authentication mechanisms and select solutions that fit your particular agency’s needs.
 
+<_Rachel suggested removing above text to here._>
 ------
 <_LaChelle: Suggest moving the checklist to be up-front for the agency reader. It can be used to find the supporting information as needed?_>
 ## What Do I Need in My Site/Agency?
