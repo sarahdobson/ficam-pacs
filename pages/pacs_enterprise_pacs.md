@@ -21,12 +21,12 @@ For a variety of reasons, some agencies have undertaken efforts to network their
 **_Enterprise PACS_** refers to the concept of connecting the PACS to the owners’ enterprise network leveraging the FICAM infrastructure to support strong authentication using the PIV card.  An enterprise PACS provides one access control environment that can be shared and managed centrally.
 
 ## Current Government Directives for an Enterprise PACS
-**<LaChelle:  Update figure using the newer icons and terminology for FICAM Architecture.>**
 
 ![Enterprise PACS management system](../img/enterprise_mgmt_system.png){:style="width:80%;float:center;"}
 
 **Figure 2. Architecture and Components of an Enterprise PACS Environment**
 
+**<LaChelle:  Update Figure 2 using the newer icons and terminology for FICAM Architecture.>**
 Authoritative sources are connected to an in-place PACS over what is called the External Interface/Cardholder Provisioning System or a Centralized Enterprise PACS Management System.  **<LaChelle: Example--pull the following sentence and others like it out of the description, and use as bullets for _reasons to consider enterprise wide physical access control systems_.>**An Enterprise PACS management system can help reduce human error, reduce costs, and provide a unified view of all identities and their privileges.
 
 ## Prerequisites for an Enterprise PACS
@@ -56,7 +56,8 @@ Figure 3, from Chapter 4, page 102, of the FICAM Roadmap, illustrates these conc
 
 ![FICAM arch and flow automated provisioning and access](../img/arch_flow_provision_access.png){:style="width:95%;float:center;"}
 
-**Figure 3. FICAM Architecture and Flow for Electronically Automated Provisioning and Access Authorization with Audit Capabilities**
+**Figure 3. FICAM Architecture and Flow for Electronically Automated Provisioning and Access Authorization with Audit Capabilities**</br>
+
 **<LaChelle: Next 3 paragraphs--slim the words, increase use of bullets.>**
 Authoritative sources (Active Directory, PIV card database, personnel security system, other identity management systems [IDMS]) are connected to the enterprise PACS management system and automatically add new identities and remove terminated identities.  Most IDMS sources include an application programing interface (API) that allows external systems to access identity information.  The enterprise PACS management system should use that API to provide a near real-time interface, so that new identities are added within minutes.  Any changes to identity attribute data are similarly synchronized between the specific authoritative source and the enterprise PACS management system. This timely synchronization ensures that policy decisions regarding access can be implemented immediately.
 
