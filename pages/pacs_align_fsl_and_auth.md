@@ -3,19 +3,19 @@ layout: default
 title: Aligning Facility Security Level (FSL) and Authentication
 permalink: /alignfslandauth/
 ---
-<_"Aligning Facility Security Level (FSL) and Authentication" is the new title for this major section. To create this section, 2 ACC Playbook v6 (11/2017) sections were merged: "Determine Faclity Risk" and "Select Appropriate Authentication Mechanism," per LaChelle's recommendation and new navigation.  LaChelle's and Rachel Flagg's comments and edits from the ACC Playbook v6 have been included here. Celeste Burley added some comments and edits._>
+<_"Aligning Facility Security Level (FSL) and Authentication" is new section title. This section combines "Determine Facility Risk" and "Select Appropriate Authentication Mechanism" from the ACC Playbook v6 (11/2017), per LaChelle's recommendation and new navigation.  Comments are in italics <_comment_> from LaChelle, Rachel Flagg, and Celeste; edits are substantially LaChelle's and Rachel's + a few from Celeste._>
 
 # Aligning Facility Security Level (FSL) and Authentication 
 
 ## Determine Facility Risk
 
-The risk to facilities and security areas is driven by the sensitivity of an agency's assets (databases, equipment, and people). To reduce the risk to critical assets, agencies must limit physical access to only those individuals who can prove their identities and demonstrate a valid need for access.<_Celeste reworded last sentence._>
+The risk to facilities and security areas is driven by the sensitivity of an agency's assets (databases, equipment, and people). To reduce the risk to critical assets, agencies must limit physical access to only those individuals who can prove their identities and demonstrate a valid need for access.
 
 To determine facility risk:
 
 * Identify potential threats to critical assets.
 * Determine how likely it is that a particular threat will occur.
-* Identify the potential impact if an asset is damaged, destroyed, stolen, or compromised. Examples of impacts could be financial loss or sensitive data loss caused by a security breach.<_Celeste reworded last sentence._>
+* Identify the potential impact if an asset is damaged, destroyed, stolen, or compromised. Examples of impacts could be financial loss or sensitive data loss caused by a security breach.
 
 NIST SP 800-116, _A Recommendation for the Use of PIV Credentials in Physical Access Control (PACS)_ recommends a risk-based approach to managing physical access to Federal Government facilities and assets. This standard also allows you to tailor a PACS implementation to your agency's physical access control policies, practices, and procedures.
 
@@ -49,7 +49,7 @@ _Add additional information here._
 
 ### Categorize Security Areas 
 
-<_The FM has been deprecated. Refer to NIST SP 800-116 only._>
+<_Celeste: The FM has been deprecated by the Dept. of the Army. Refer to NIST SP 800-116 only._>
 NIST SP 800-116 defines three security area categories:
 
 * **Exclusion (Authentication Factors - 3)**. An area in which uncontrolled movement would permit direct access to a security asset or interest.
@@ -92,7 +92,7 @@ When using SYM-CAK, PKI-CAK, and PKI-AUTH authentication mechanisms, certificate
 
 **2. Security Area Categorization.**  Next, assign to the security area the same risk level as the highest risk asset within the area.  For example, say there are three assets within a designated security area:  a LOW-risk asset, a MODERATE-risk asset, and a HIGH-risk asset.  The security area must be classified as a HIGH-risk security area.  As an alternative, split the security area into separate security areas, or a set of embedded security areas, each with a different risk categorization.<Rachel: _How does this relate to the asset risk assessment? Once they designate something as "low" risk, does that mean they need to establish a controlled environment for that asset? Does "high" equal "exclusion?" (The "step" is about assessing "low or high" but those terms are not used further on in the process. There is something missing here (do you need another step?)_.>
 
-NIST SP 800-116 defines three security area categories:<_Celeste: The FM has been deprecated by the Dept. of the Army. Reference SP 800-116 only. See http://usacac.army.mil/sites/default/files/misc/doctrine/CDG/fms.html for Army's list of Active FMs._>Exclusion, Limited, and Controlled. The categories distinguish how immediately accessible the security assets (or security interests) are within the security area. (See Table 1.)  
+NIST SP 800-116 defines three security area categories:<_Celeste: The FM has been deprecated by the Dept. of the Army. Refer to SP 800-116 only. See http://usacac.army.mil/sites/default/files/misc/doctrine/CDG/fms.html for Army's list of Active FMs._>Exclusion, Limited, and Controlled. The categories distinguish how immediately accessible the security assets (or security interests) are within the security area. (See Table 1.)  
 
 **Table 1.  Security Area Categories**
 
