@@ -5,7 +5,7 @@ permalink: /train/
 ---
 ## What Training Is Required?
 
-The team responsible for the PACS design, procurement, deployment, testing, and maintenance may include both agency employees and contract personnel.  The mix will vary depending on the scope of the project, but the team as a whole must have a wide range of knowledge and experience.  Some training will be general, but most training must be tailored to agency policies, facility procedures, and the system being installed.
+**<LaChelle: Training is always good. Make this a separate page on Training suggestions and opportunities. Link to how an agency user can buy or attend the training options (aligned with submitting their annual training plan and using their annual training budget).>**The team responsible for the PACS design, procurement, deployment, testing, and maintenance may include both agency employees and contract personnel.  The mix will vary depending on the scope of the project, but the team as a whole must have a wide range of knowledge and experience.  Some training will be general, but most training must be tailored to agency policies, facility procedures, and the system being installed.
 
 ### Administrator Training
 
@@ -36,7 +36,7 @@ Many authorized service providers train agency operators and technicians as part
 
 Industry certifications are neither product nor policy specific.  They generally require a combination of experience, training, and examinations to demonstrate competence.  Many certifications also require continuing education.  The individual courses required for these certifications often serve as a good source of general training, even if the entire program is not completed.  Available certifications include, but are not limited to:
 
-- The Secure Technology Alliance offers [four training programs](https://www.securetechalliance.org/activities-education-and-certification-programs/){:target="_blank"}.<!--STA linked page shows **4** training options.--> The Certified System Engineer ICAM PACS (CSEIP) program trains individuals responsible for implementing FIPS-201 compliant systems. The Certified Smart Card Industry Professional/Government (CSCIP/G) program trains individuals with experience implementing smart card technologies.
+- The Secure Technology Alliance offers [four training programs](https://www.securetechalliance.org/activities-education-and-certification-programs/){:target="_blank"}. **<Celeste: STA linked page shows 4 training options.>**The Certified System Engineer ICAM PACS (CSEIP) program trains individuals responsible for implementing FIPS-201 compliant systems. The Certified Smart Card Industry Professional/Government (CSCIP/G) program trains individuals with experience implementing smart card technologies.
 
 - ASIS International offers the [Certified Protection Professional (CPP) program](https://www.asisonline.org/certify){:target="_blank"}, for individuals who manage security programs, and the Physical Security Professional (PSP) program, for individuals who design and implement physical protection systems.
 
