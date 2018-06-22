@@ -3,7 +3,7 @@ layout: default
 title: Aligning Facility Security Level (FSL) and Authentication
 permalink: /alignfslandauth/
 ---
-**<"Aligning Facility Security Level (FSL) and Authentication" is new section title. This section combines "Determine Facility Risk" and "Select Appropriate Authentication Mechanism" from the ACC Playbook v6 (11/2017), per LaChelle's recommendation and new navigation.  Comments are in italics <_comment_> from LaChelle, Rachel Flagg, and Celeste; edits are substantially LaChelle's and Rachel's + a few from Celeste.>**
+**<"Aligning Facility Security Level (FSL) and Authentication" is the new section title. This section combines "Determine Facility Risk" and "Select Appropriate Authentication Mechanism" from the ACC Playbook v6 (11/2017), per LaChelle's recommendation and new navigation.  Comments are in bold from LaChelle, Rachel Flagg, and Celeste. Edits are substantially LaChelle's and Rachel's.>**
 
 ## Determine Facility Risk
 
@@ -31,7 +31,7 @@ Conduct a risk analysis for each access point (door) to determine how many authe
 
 **Figure 1. Authentication Mechanism Selection Process**
 
-**<Rachel: Present each step as an action the reader needs to complete. Recommend using the following structure and text to replace the information starting with "1. Asset Risk Assessment" (marked off in bordered area below).>**
+**<Rachel: Present each step as an action the reader needs to complete. Recommend using the following structure and text to replace the information that starts with "1. Asset Risk Assessment" below.>**
 * **Step 1 - Assess Risk.** Evaluate the likelihood and effect of losing or compromising each asset within a security area, and document the risk levels (LOW, MODERATE, HIGH) for each asset.
 * **Step 2 - Categorize Security Areas.** Assign a risk level to the security area. The risk should be equal to the asset with the highest risk within the area. For example, if you have several assets within the area (including both LOW- and HIGH-risk assets), classify it as a HIGH-risk security area. You can also split the area into separate security areas, each with a different risk categorization.
 * **Step 3 - Determine Authentication Factors.** Identify the minimum number of authentication factors required for access. Authentication is based on verifying one, two, or three of the following factors:<br> 
@@ -86,9 +86,9 @@ Table 3 lists the candidate authentication mechanisms for each of the three secu
 
 When using SYM-CAK, PKI-CAK, and PKI-AUTH authentication mechanisms, certificates should be validated when possible. Verify the certificate against a certificate revocation list (CRL) or online certificate status protocol (OCSP) server, and verify the origin of the certificate through the trust chain of issuing certificate authorities to the root certificate authority, using certificate path validation.
 
-**<Rachel suggests replacing the following text with the above structure and text. Remove all text below up to "What Do I Need in My Site/Agency.">**
+**<Rachel suggests replacing the following text with the above structure and text. Remove all text below from "1. Asset Risk Assessment" up to "What Do I Need in My Site/Agency.">**
 
-**1. Asset Risk Assessment.** Evaluate the likelihood and effect of losing or compromising each asset within a security area and assign a risk of LOW, MODERATE or HIGH.**<LaChelle: This paragraph is an example of slimming down the text. Include link to ISC info for risk assessment>.**  
+**1. Asset Risk Assessment. <LaChelle: This paragraph is an example of slimming down the text. Include link to ISC info for risk assessment>.**Evaluate the likelihood and effect of losing or compromising each asset within a security area and assign a risk of LOW, MODERATE or HIGH.   
 
 **2. Security Area Categorization.**  Next, assign to the security area the same risk level as the highest risk asset within the area.  For example, say there are three assets within a designated security area:  a LOW-risk asset, a MODERATE-risk asset, and a HIGH-risk asset.  The security area must be classified as a HIGH-risk security area.  As an alternative, split the security area into separate security areas, or a set of embedded security areas, each with a different risk categorization.**<Rachel: How does this relate to the asset risk assessment? Once they designate something as low risk, does that mean they need to establish a controlled environment for that asset? Does high = exclusion? The step is about assessing low or high, but those terms are not used further on in the process. There is something missing here. Do you need another step?>**
 
