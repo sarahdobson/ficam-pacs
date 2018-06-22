@@ -6,7 +6,8 @@ permalink: /
 **<Deleted "Background" section. LaChelle and Rachel Flagg suggested that Background should be deleted.>**
 **<Deleted "Physical Access Control Systems" title. Title of Playbook will appear on webpage when published.>**
 **<Edits incorporated from LaChelle, Rachel, and Celeste.>**
-This Playbook will help physical access control system architects, engineers, and project managers to implement physical access control systems that work with Personal Identity Verification cards (PIV-PACS).**<Edited by LaChelle and Rachel>** 
+
+This Playbook will help physical access control system architects, engineers, and project managers to implement physical access control systems (PACS) that work with Personal Identity Verification (PIV) cards. 
 
 This Playbook walks you through how to:
 
