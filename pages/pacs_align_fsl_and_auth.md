@@ -88,7 +88,7 @@ When using SYM-CAK, PKI-CAK, and PKI-AUTH authentication mechanisms, certificate
 
 **<Rachel suggests replacing the following text with the above structure and text. Remove all text below from "1. Asset Risk Assessment" up to "What Do I Need in My Site/Agency.">**
 
-**1. Asset Risk Assessment. <LaChelle: This paragraph is an example of slimming down the text. Include link to ISC info for risk assessment>.**Evaluate the likelihood and effect of losing or compromising each asset within a security area and assign a risk of LOW, MODERATE or HIGH.   
+**1. Asset Risk Assessment. Evaluate the likelihood and effect of losing or compromising each asset within a security area and assign a risk of LOW, MODERATE or HIGH (**LaChelle: This paragraph is an example of slimming down the text. Include link to ISC info for risk assessment.**)   
 
 **2. Security Area Categorization.**  Next, assign to the security area the same risk level as the highest risk asset within the area.  For example, say there are three assets within a designated security area:  a LOW-risk asset, a MODERATE-risk asset, and a HIGH-risk asset.  The security area must be classified as a HIGH-risk security area.  As an alternative, split the security area into separate security areas, or a set of embedded security areas, each with a different risk categorization.**<Rachel: How does this relate to the asset risk assessment? Once they designate something as low risk, does that mean they need to establish a controlled environment for that asset? Does high = exclusion? The step is about assessing low or high, but those terms are not used further on in the process. There is something missing here. Do you need another step?>**
 
