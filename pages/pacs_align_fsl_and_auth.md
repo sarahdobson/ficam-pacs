@@ -5,8 +5,6 @@ permalink: /alignfslandauth/
 ---
 <_"Aligning Facility Security Level (FSL) and Authentication" is new section title. This section combines "Determine Facility Risk" and "Select Appropriate Authentication Mechanism" from the ACC Playbook v6 (11/2017), per LaChelle's recommendation and new navigation.  Comments are in italics <_comment_> from LaChelle, Rachel Flagg, and Celeste; edits are substantially LaChelle's and Rachel's + a few from Celeste._>
 
-# Aligning Facility Security Level (FSL) and Authentication 
-
 ## Determine Facility Risk
 
 The risk to facilities and security areas is driven by the sensitivity of an agency's assets (databases, equipment, and people). To reduce the risk to critical assets, agencies must limit physical access to only those individuals who can prove their identities and demonstrate a valid need for access.
@@ -87,14 +85,16 @@ Table 3 lists the candidate authentication mechanisms for each of the three secu
 | **Exclusion**  | 3 | Something you have AND<br>something you know AND<br>something you are | PKI-CAK + BIO(-A),<br>SYM-CAK + BIO(-A)  |   |
 
 When using SYM-CAK, PKI-CAK, and PKI-AUTH authentication mechanisms, certificates should be validated when possible. Verify the certificate against a certificate revocation list (CRL) or online certificate status protocol (OCSP) server, and verify the origin of the certificate through the trust chain of issuing certificate authorities to the root certificate authority, using certificate path validation.
+**<_Rachel recommends replacing the following text with the above structure and text (i.e., remove all text below in bordered area._>**</br>
 
-**<_Rachel recommends replacing the following text with the above structure and text (i.e., remove all text below in bordered area._>**
+
 ------
-**1. Asset Risk Assessment.** Evaluate the likelihood and effect of losing or compromising each asset within a security area and assign a risk of LOW, MODERATE or HIGH. <_LaChelle: This paragraph is an example of slimming down the text. Include link to ISC info for risk assessment_>. 
+**<LaChelle: This paragraph is an example of slimming down the text. Include link to ISC info for risk assessment>.**
+**1. Asset Risk Assessment.** Evaluate the likelihood and effect of losing or compromising each asset within a security area and assign a risk of LOW, MODERATE or HIGH.  
 
-**2. Security Area Categorization.**  Next, assign to the security area the same risk level as the highest risk asset within the area.  For example, say there are three assets within a designated security area:  a LOW-risk asset, a MODERATE-risk asset, and a HIGH-risk asset.  The security area must be classified as a HIGH-risk security area.  As an alternative, split the security area into separate security areas, or a set of embedded security areas, each with a different risk categorization.<Rachel: _How does this relate to the asset risk assessment? Once they designate something as "low" risk, does that mean they need to establish a controlled environment for that asset? Does "high" equal "exclusion?" (The "step" is about assessing "low or high" but those terms are not used further on in the process. There is something missing here (do you need another step?)_.>
+**2. Security Area Categorization.**  Next, assign to the security area the same risk level as the highest risk asset within the area.  For example, say there are three assets within a designated security area:  a LOW-risk asset, a MODERATE-risk asset, and a HIGH-risk asset.  The security area must be classified as a HIGH-risk security area.  As an alternative, split the security area into separate security areas, or a set of embedded security areas, each with a different risk categorization.**<Rachel: How does this relate to the asset risk assessment? Once they designate something as low risk, does that mean they need to establish a controlled environment for that asset? Does high = exclusion? The step is about assessing low or high, but those terms are not used further on in the process. There is something missing here. Do you need another step?>**
 
-NIST SP 800-116 defines three security area categories:<_Celeste: The FM has been deprecated by the Dept. of the Army. Refer to SP 800-116 only. See http://usacac.army.mil/sites/default/files/misc/doctrine/CDG/fms.html for Army's list of Active FMs._>Exclusion, Limited, and Controlled. The categories distinguish how immediately accessible the security assets (or security interests) are within the security area. (See Table 1.)  
+NIST SP 800-116 defines three security area categories: Exclusion, Limited, and Controlled. **<Celeste: The FM has been deprecated by the Dept. of the Army. See http://usacac.army.mil/sites/default/files/misc/doctrine/CDG/fms.html. Refer to SP 800-116 only.>** These categories distinguish how immediately accessible the security assets (or security interests) are within the security area. (See Table 1.)  
 
 **Table 1.  Security Area Categories**
 
@@ -125,7 +125,8 @@ NIST SP 800-116 recommends the minimum number of authentication factors required
 
 **4. Authentication Mechanism Assignment.**  Once you know how many authentication factors are required for a security area, you can determine the appropriate authentication mechanisms.  NIST SP 800-116 describes available authentication mechanisms and provides guidance on how they can be applied.  But you can choose to deviate from the NIST SP 800-116 recommended authentication mechanisms and select solutions that fit your particular agency’s needs.
 
-<_Rachel suggested removing above text to here._>
+**<Rachel suggested removing above text to here.>**
+
 ------
 <_LaChelle: Suggest moving the checklist to be up-front for the agency reader. It can be used to find the supporting information as needed?_>
 ## What Do I Need in My Site/Agency?
@@ -133,16 +134,16 @@ NIST SP 800-116 recommends the minimum number of authentication factors required
 Use the following checklist to guide PACS policy, planning, and technical implementation when you are going to implement an approved, PIV-enabled PACS.
 
 - Consider an agency-wide “enterprise PACS” approach, and designate a chief PACS officer to define agency-specific PACS policies and oversee the implementation of the enterprise PACS solution.
-- Review PIV-related Office of Management and Budget and agency policies:&nbsp;&nbsp;OMB M-06-18 and OMB M-11-11. <_LaChelle: Move all of these policies to a separate page for policies and references. Celeste: Standards and Policies identifiers and reference information have been moved to Standards and Policies section._>
-- Review PACS standards and guidance:&nbsp;&nbsp;NIST SP 800-116<_800-116-1 is not Final_>; _Federal Identity, Credential, and Access Management (FICAM) Roadmap and Implementation Guidance_; and _PIV in Enterprise Physical Access Control Systems (E-PACS)_. <_LaChelle: Move all of the standards and guidance documents to a separate page for policies and references. Celeste: Standards and Policies identifiers and reference information have been moved to Standards and Policies section._>
-<_LaChelle: Update this list to be a checklist?_>
+- Review PIV-related Office of Management and Budget and agency policies:&nbsp;&nbsp;OMB M-06-18 and OMB M-11-11. **<LaChelle: Move all of these policies to a separate page for policies and references. Celeste: Standards and Policies identifiers and reference information have been moved to Standards and Policies section.>**
+- Review PACS standards and guidance:&nbsp;&nbsp;NIST SP 800-116**<Celeste: 800-116-1 is not Final>**; _Federal Identity, Credential, and Access Management (FICAM) Roadmap and Implementation Guidance_; and _PIV in Enterprise Physical Access Control Systems (E-PACS)_. **<LaChelle: Move all of the standards and guidance documents to a separate page for policies and references. Celeste: Standards and Policies references moved to Standards and Policies section.>**
+**<LaChelle: Update this list to be a checklist?>**
 - Review current and new or planned PACS installations. Agency PACS that are currently using non-PIV tokens must be replaced or upgraded to use PIV cards for authentication.
 > Current agency PACS based on a PIV CHUID authentication must be upgraded to use the candidate authentication mechanisms.
 > New agency PACS must be PIV-enabled, using the candidate authentication mechanisms.<br>
 - Implement a common procurement process and purchase approved PACS systems and equipment from the GSA Approved Products List (APL).
 
 ## Technical Implementation
-<_LaChelle: Update this list to be a checklist?_>
+**<LaChelle: Update this list to be a checklist?>**
 * Decide whether the PACS back-end system should be Cloud-based or local.
 * Determine the security area category for each access point.
 * Select the authentication mechanism to be used at each access point’s PIV card reader.
