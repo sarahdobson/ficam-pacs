@@ -7,7 +7,7 @@ This playbook helps physical access control system architects, engineers, and pr
 
 This playbook covers:
 
-* Understanding enterprise PACS
+* Understanding enterprise physical access control systems
 * Determining Facility Security Level (FSL)
 * Selecting the appropriate PIV mechanism to use for authentication
 * Procuring approved physical access control systems products and services
