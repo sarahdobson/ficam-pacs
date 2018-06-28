@@ -59,38 +59,30 @@ navigation:
   url: ''
   internal: true
   coll: false
-- text: Determine Facility Risk
-  url: facilityrisk/
-  internal: true
-  coll: false
-- text: Select Authentication Mechanism
-  url: authmech/
-  internal: true
-  coll: false
-- text: Understand Enterprise PACS
+- text: Enterprise Physical Access Control Systems
   url: enterprisepacs/
   internal: true
   coll: false
-- text: PIV and PIV-I Considerations
-  url: pivandpivi/
+- text: Aligning Facility Security Level and Authentication
+  url: alignfslandauth/
   internal: true
   coll: false
-- text: Procure an Approved PACS
+- text: Procurements
   url: procure/
-  internal: true
-  coll: false
-- text: Deploy a PACS
-  url: deploy/
   internal: true
   coll: false
 - text: Training
   url: train/
   internal: true
   coll: false
-- text: Contribute
-  url: contribute/
+- text: Standards and Policies
+  url: standards/
   internal: true
-  coll: false
+  coll: false 
+#- text: Contribute
+# url: contribute/
+# internal: true
+# coll: false
 
 
 #https://github.com/jekyll/jekyll/issues/2346
