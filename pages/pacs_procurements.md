@@ -4,7 +4,7 @@ title: Procure an Approved PACS
 permalink: /procure/
 ---
 ## Where Can I Find Information about GSA-Approved Products?
-
+<**LaChelle: Link directly to the website and reword as an FAQ.**>
 The General Services Administration (GSA) is responsible for ensuring that products comply with FIPS 201-2 requirements. Products are evaluated based on specific topologies (parameters) and the results are available on GSA's www.idmanagement.gov website: [FIPS 201 Evaluation Program](https://www.idmanagement.gov/fips201/){:target="_blank"} and [Approved Products List](https://www.idmanagement.gov/approved-products-list/){:target="_blank"}.  
 
 ## What Is a GSA APL-Listed PACS?
