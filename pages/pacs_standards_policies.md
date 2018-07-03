@@ -42,11 +42,11 @@ OMB M-11-11, ["Continued Implementation of Homeland Security Presidential Direct
 
 [NIST SP 800-73-4, _Interfaces for Personal Identity Verification_](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-73-4.pdf){:target="_blank"}, Parts 1 and 2, May 2015 (Updated February 8, 2016).
 
-[NIST SP 800-116, _A Recommendation for the Use of PIV Credentials in Physical Access Control Systems (PACS)_](http://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-116.pdf){:target="_blank"], November 2008. 
+[NIST SP 800-116, Revision1, _Guidelines for the Use of PIV Credentials in Facility Access_](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-116r1.pdf){:target="_blank"], June 2018. 
 
 [NIST SP 800-171, Revision 1, _Protecting Controlled Unclassified Information in Nonfederal Information Systems and Organizations_](http://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-171r1.pdf){:target="_blank"}, December 2016.
 
-[_Personal Identity Verification Interoperability for Issuers_](https://www.idmanagement.gov/wp-content/uploads/sites/1171/uploads/piv-i-for-issuers.pdf){:target="_blank"}, Version 2.0.1, July 2017
+[_Personal Identity Verification Interoperability for Issuers_](https://www.idmanagement.gov/wp-content/uploads/sites/1171/uploads/piv-i-for-issuers.pdf){:target="_blank"}, Version 2.0.1, July 27, 2017.
 
 [_Personal Identity Verification (PIV) in Enterprise Physical Access Control Systems (E-PACS)_](https://www.idmanagement.gov/wp-content/uploads/sites/1171/uploads/piv-in-epacs.pdf){:target="_blank"}, Version 3.0, Interagency Security Committee (ISC), March 26, 2014.
 
