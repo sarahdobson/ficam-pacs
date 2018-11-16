@@ -3,11 +3,24 @@ layout: default
 title: Training
 permalink: /train/
 ---
-## What Training Is Required?
+## Training
 
-**<LaChelle: Training is always good. Make this a separate page on Training suggestions and opportunities. Link to how an agency user can buy or attend the training options (aligned with submitting their annual training plan and using their annual training budget).>**The team responsible for the PACS design, procurement, deployment, testing, and maintenance may include both agency employees and contract personnel.  The mix will vary depending on the scope of the project, but the team as a whole must have a wide range of knowledge and experience.  Some training will be general, but most training must be tailored to agency policies, facility procedures, and the system being installed.
+LaChelle: Training is always good. 
+Make this a separate page on Training suggestions and opportunities. 
+- Link to how an agency user can buy or attend the training options 
+- Align with submitting their annual training plan and using their annual training budget.
+-----
+**_NOTES BELOW -- DETAILS TO FILL IN. Will do Editorial/Plain Language Review when Content is more complete and honed._**
 
-### Administrator Training
+A Physical Access Control System project team will most likely include both government employees and contractors. Examples of different project scopes? Could scope impact the team roles (or will these remain relatively static?) involved or just the size of the team? The team roles will include (for example): (Senior Agency Roles, an Acquisition Manager, a PACS Project Manager, a CSEIP, xxxx, xxxx, a Security Project Manager (SPM), Facility (Building) Manager?, Facility Security Manager, xxxx, xxxx, technician(s), operator(s) [add info.]. (Additional participants:  Fire and Police Departments, Building Code (Electrical) Inspectors, etc...? Re: Know all the players, per GSA Reverse Industry Day. Assume these folks would have their own training resources.) 
+
+All training certifications and curricula for PACS roles must address the requirements of Federal Government PACS projects and federal policies and standards. Procurements training for Project Manager?
+
+All certification curricula should include training in applicable U.S. Public Laws, Federal Government policies (FISMA, FITARA, etc.), agency policies' requirements (to include those of the Privacy Act), GSA policies (Schedules 84 and xx and terms of Memoranda of Understanding [MOUs]), facility procedures, and the system being installed.
+
+**_Add more Roles_**
+
+### System Administrator Training
 
 A PACS is now considered part of the federal IT infrastructure.  System administration is often divided between agency IT support personnel and application administrators, who are trained by individual PACS manufacturers. Application administrators are responsible for configuring doors, card readers, locks, alarms, events, and schedules within the PACS application. Some administrator tasks, such as back-ups, disaster recovery, and auditing can be performed by either IT support personnel or application administrators, depending on your agency’s policy.
 
@@ -33,6 +46,8 @@ Most system manufacturers offer product-specific administrator, operator, and te
 Many authorized service providers train agency operators and technicians as part of their contract to install, configure, and maintain the PACS.  This training should be tailored to your agency and facility, focusing on the features that have been implemented, ignoring unused features, and showing how the system is configured to complement your operational policies and procedures.
 
 ### Industry Certifications
+
+**_Add additional information. Check all links and details._**
 
 Industry certifications are neither product nor policy specific.  They generally require a combination of experience, training, and examinations to demonstrate competence.  Many certifications also require continuing education.  The individual courses required for these certifications often serve as a good source of general training, even if the entire program is not completed.  Available certifications include, but are not limited to:
 
