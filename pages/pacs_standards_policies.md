@@ -54,5 +54,5 @@ OMB M-11-11, ["Continued Implementation of Homeland Security Presidential Direct
 
 [Federal Acquisition Regulation (FAR)](https://www.acquisition.gov/browsefar){:target="_blank"}, 44 C.F.R. &sect; <**Need full citation. Please add section # (FAR applicable Subpart and section looks like 44.402(a)(1)?) Add year.**>
 
-[PACS Ordering Guide](https://www.gsa.gov/cdnstatic/Guide_to_PACS_-_REVISED_060717.pdf), GSA, January 2017.
+[PACS Customer Ordering Guide (v2.0)](https://www.gsa.gov/cdnstatic/General_Supplies__Services/Guide_to_PACS_v2%2006-12-2018.pdf), GSA, June 2018.
 
