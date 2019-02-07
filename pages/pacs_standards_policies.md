@@ -24,7 +24,9 @@ OMB M-06-18, ["Acquisition of Products and Services for Implementation of HSPD-1
 
 OMB M-11-11, ["Continued Implementation of Homeland Security Presidential Directive (HSPD) 12 - Policy for a Common Identification Standard for Federal Employees and Contractors"](https://www.whitehouse.gov/sites/whitehouse.gov/files/omb/memoranda/2011/m11-11.pdf){:target="_blank"}, February 3, 2011.
 
-## Standards and Guidance
+PPD-21, ["Presidential Policy Directive -- Critical Infrastructure Security and Resilience"]( (February 12, 2013).
+
+## Standards
 
 [_Federal Identity, Credential, and Access Management (FICAM) Roadmap and Implementation Guidance_](https://www.idmanagement.gov/wp-content/uploads/sites/1171/uploads/FICAM_Roadmap_and_Implem_Guid.pdf){:target="_blank"}, Version 2.0, Executive Office of the President (EOP) and Federal Chief Information Officers (CIO) Council, December 2, 2011.
 
@@ -46,11 +48,17 @@ OMB M-11-11, ["Continued Implementation of Homeland Security Presidential Direct
 
 [NIST SP 800-171, Revision 1, _Protecting Controlled Unclassified Information in Nonfederal Information Systems and Organizations_](http://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-171r1.pdf){:target="_blank"}, December 2016.
 
+## Guidance and Best Practices
+
+[_Best Practices for Planning and Managing Physical Security Resources: An Interagency Security Committee Guide_](https://www.dhs.gov/sites/default/files/publications/isc-planning-managing-physical-security-resources-dec-2015-508.pdf){:target="_blank"}, December 2015.
+
 [_Personal Identity Verification Interoperability for Issuers_](https://www.idmanagement.gov/wp-content/uploads/sites/1171/uploads/piv-i-for-issuers.pdf){:target="_blank"}, Version 2.0.1, July 27, 2017.
 
-[_Personal Identity Verification (PIV) in Enterprise Physical Access Control Systems (E-PACS)_](https://www.idmanagement.gov/wp-content/uploads/sites/1171/uploads/piv-in-epacs.pdf){:target="_blank"}, Version 3.0, Interagency Security Committee (ISC), March 26, 2014.
+[_Personal Identity Verification (PIV) in Enterprise Physical Access Control Systems (E-PACS)_](https://www.idmanagement.gov/wp-content/uploads/sites/1171/uploads/piv-in-epacs.pdf){:target="_blank"}, Interagency Security Committee (ISC), Version 3.1, March 26, 2014.
 
-## Other Useful Documentation
+[_The Risk Management Process for Federal Facilities: An Interagency Security Committee Standard_](https://www.dhs.gov/sites/default/files/publications/isc-risk-management-process-2016-508.pdf){:target="_blank"}, 2nd Edition, November 2016.
+
+## Related Documents
 
 [Federal Acquisition Regulation (FAR)](https://www.acquisition.gov/browsefar){:target="_blank"}, 44 C.F.R. &sect; <**Need full citation. Please add section # (FAR applicable Subpart and section looks like 44.402(a)(1)?) Add year.**>
 
