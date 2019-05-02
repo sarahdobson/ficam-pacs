@@ -48,7 +48,7 @@ PACS project teams consist of both agency employees and contractors. Teams inclu
 {% include alert-info.html content="Agencies that plan to initiate a PACS Project should include line items for related employee training in their annual training plans and annual training budgets." %}
 
 ### Department of Homeland Security - Interagency Security Committee
-The Interagency Security Committee developed a series of free [online training courses](https://www.dhs.gov/interagency-security-committee-training){:target="_blank"} that provide an overview of facility security standards, processes, and practices.
+The [Interagency Security Committee](https://www.dhs.gov/interagency-security-committee){:target="_blank"} developed a series of free [online training courses](https://www.dhs.gov/interagency-security-committee-training){:target="_blank"} that provide an overview of facility security standards, processes, and practices.
 
 ### Equipment Manufacturers
 [GSA PACS APL](https://www.idmanagement.gov/approved-products-list-pacs-products/){:target="_blank"} PACS manufacturers whose products are listed on the GSA PACS APL offer product-specific courses for Operators and Technicians directly or through authorized service providers. Operators and Technicians may obtain certifications for completing some series of courses.
