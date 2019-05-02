@@ -47,11 +47,13 @@ PACS project teams consist of both agency employees and contractors. Teams inclu
 
 {% include alert-info.html content="Agencies that plan to initiate a PACS Project should include line items for related employee training in their annual training plans and annual training budgets." %}
 
+### Department of Homeland Security - Interagency Security Committee
+The Interagency Security Committee developed a series of free [online training courses](https://www.dhs.gov/interagency-security-committee-training){:target="_blank"} that provide an overview of facility security standards, processes, and practices.
+
 ### Equipment Manufacturers
 [GSA PACS APL](https://www.idmanagement.gov/approved-products-list-pacs-products/){:target="_blank"} PACS manufacturers whose products are listed on the GSA PACS APL offer product-specific courses for Operators and Technicians directly or through authorized service providers. Operators and Technicians may obtain certifications for completing some series of courses.
 
 >**Note:** Manufacturer training may not address unique operational requirements or site-specific configurations, so authorized service providers should conduct this training:  [GSA Schedule 84](https://www.gsa.gov/buying-selling/purchasing-programs/gsa-schedules/list-of-gsa-schedules/schedule-84security-fire-law-enforcement){:target="_blank"}, and/or [GSA Schedule 70](https://www.gsa.gov/technology/technology-purchasing-programs/it-schedule-70){:target="_blank"}. 
-
 
 ### Authorized Service Providers
 Authorized service providers offer manufacturer training for installing, configuring, and maintaining PACSs: [GSA Schedule 84](https://www.gsa.gov/buying-selling/purchasing-programs/gsa-schedules/list-of-gsa-schedules/schedule-84security-fire-law-enforcement){:target="_blank"} and [GSA Schedule 70](https://www.gsa.gov/technology/technology-purchasing-programs/it-schedule-70){:target="_blank"}. This training can be tailored to your agency, facility, implementation features, operational policies, and procedures. This training should be planned during the Procurements phase. 
