@@ -23,7 +23,7 @@ The FSL and Authentication checklist below will help you:
 - When you inventory critical assets, also document any challenges to securing them.  <br><br>Examples of critical assets are:
     - People
     - Information systems and IT infrastructure
-    - Campuses, buildings, secure vaultss, and armories
+    - Campuses, buildings, secure vaults, and armories
     - Tenant agencies' information systems, IT infrastructure, and people
   
 - If you must evaluate an asset's criticality, consider:
