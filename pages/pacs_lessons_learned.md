@@ -26,7 +26,7 @@ Federal agencies have shared these PACS lessons learned:
 
 
 ## Procurements
-- Do not procure non-compliant PACS technologies, such as “prox” cards.
+- Do not procure non-compliant PACS technologies, such as proximity cards.
 - Use consistent terms and recommended procurement language within requirements documents, specifications, SOWs, RFIs, RFPs, and RFQs. 
 - Leverage agency subject matter experts to review SOWs, RFPs, and RFQs before releasing them for contractors' bids.
 - Resolve SOW and PACS compliance issues as soon as they are recognized.
