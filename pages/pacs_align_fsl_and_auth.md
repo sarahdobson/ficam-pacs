@@ -6,7 +6,7 @@ permalink: /alignfslandauth/
 
 Federal agencies rely on PACS/E-PACS and PIV credentials to confirm that an employee, contractor, or visitor _is_ or _is not_ authorized to access a site and its critical assets, such as systems, information, and people. 
 
-To ensure that your agency's critical assets are protected, you will need to assess each site's risk level, called *Facility Security Level*, and decide what level of PIV-credential authentication is required (called *authentication mechanism*). 
+To protect your agency's critical assets, you must assess each site's risk level (called *Facility Security Level*) and decide what level of PIV credential authentication is required (called *authentication mechanism*). 
 
 The FSL and Authentication checklist below will help you:
 
@@ -20,7 +20,7 @@ The FSL and Authentication checklist below will help you:
 {% include alert-info.html content="These federal standards give guidance for assessing FSL, including how to categorize site risks:<br> - <a href=\"https://www.dhs.gov/publication/isc-risk-management-process\" target=\"_blank\">The Risk Management Process for Federal Facilities: An Interagency Security Committee Standard </a> <br> - <a href=\"https://csrc.nist.gov/publications/detail/sp/800-116/rev-1/final\" target=\"_blank\">NIST SP 800-116, Revision 1, Guidelines for the Use of PIV Credentials in Facility Access. </a>" %}
 
 <i class="fa fa-check-square-o"></i> &nbsp;**Inventory critical assets for each agency site**
-- When you inventory critical assets, also document any challenges to securing them.  <br><br>Examples of critical assets are:
+- When you inventory critical assets, also document any challenges to secure them.  <br><br>Examples of critical assets include:
     - People
     - Information systems and IT infrastructure
     - Campuses, buildings, secure vaults, and armories
@@ -32,7 +32,7 @@ The FSL and Authentication checklist below will help you:
     - Cost of replacing the asset
 
 <i class="fa fa-check-square-o"></i> &nbsp;**Assess site and critical asset risks, as well as risks to tenant agencies' assets**
-- Examples of potential risks to a site and its critical assets are: 
+- Examples of potential risks to a site and its critical assets include: 
     - Site mission(s) (those of the agency, its organizations, and tenant agencies)
     - Site “symbolism” (public perception of the agency, its organizations, tenant agencies, or missions)
     - Total population (employees plus contractors)
@@ -56,10 +56,10 @@ The FSL and Authentication checklist below will help you:
 |*High* | The loss of confidentiality, integrity, or availability could have a **severe or catastrophic** adverse effect on organizational operations, organizational assets, or individuals. |
 
 <i class="fa fa-check-square-o"></i> &nbsp;**Create a site map of categorized assets**
-- This map will help you to determine each security area's minimum security level.
+- This map will help you determine each security area's minimum security level.
 
 
-{% include alert-info.html content="As an alternative to assessing a site's risk, you can select a pre-determined FSL, as described in <a href=\"https://www.dhs.gov/publication/isc-risk-management-process/\" target=\"_blank\">The Risk Management Process for Federal Facilities: An Interagency Security Committee Standard</a>." %}
+{% include alert-info.html content="As an alternative to assessing a site's risk, you can select a pre-determined FSL as described in <a href=\"https://www.dhs.gov/publication/isc-risk-management-process/\" target=\"_blank\">The Risk Management Process for Federal Facilities: An Interagency Security Committee Standard</a>." %}
 
 
 
@@ -93,7 +93,7 @@ The FSL and Authentication checklist below will help you:
 |:---------|:--------------------------:|:------------|
 |*Exclusion*| 3| Exclusion areas require all three authentication factors: Something you have, such as a PIV; something you know, such as a PIN; and something you are, such as a fingerprint or iris scan.|
 |*Limited* | 2 | Limited areas require 2 of the 3 authentication factors: a PIV and PIN, a PIV and fingerprint or iris scan, or a PIN and fingerprint or iris scan.|
-|*Controlled* | 1 | Controlled areas require only one authentication factor: a PIV, a PIN, or a fingerprint/iris scan. (There are currently no FICAM-approved, one-factor biometric readers.)|  
+|*Controlled* | 1 | Controlled areas require only one authentication factor: a PIV, a PIN, or a fingerprint/iris scan. (There are currently no FICAM-approved one-factor biometric readers.)|  
   
 
 ## Select Authentication Mechanisms 
