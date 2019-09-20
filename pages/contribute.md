@@ -1,7 +1,7 @@
 ---
 layout: default
 title: How to Contribute
-permalink: /contribute/
+permalink: /contribut/
 ---
 
 Thank you for considering contributing to our development of open and transparent PACS Guides.  Everyone has tricks and tips and we want to share these with our colleagues! 
